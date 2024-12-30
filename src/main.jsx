@@ -1,8 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import State3 from './stateManagement/stateManagement3'
 // import Component1 from './lec2412/componenet'
 // import InputTest from './lec2412/component3'
-import Timetable from './lec2412/timetable_6th_sem'
+// import Timetable from './lec2412/timetable_6th_sem'
+// import State1 from './stateManagement/stateManagement'
+// import State2 from './stateManagement/stateManagement2'
 
 
 createRoot(document.getElementById('root')).render(
@@ -35,6 +38,7 @@ createRoot(document.getElementById('root')).render(
      </tr>
    </table> */}
    {/* <Component1></Component1> */}
-<Timetable></Timetable>
+{/* <Timetable></Timetable> */}
+<State3></State3>
   </StrictMode>,
 )
