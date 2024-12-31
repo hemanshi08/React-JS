@@ -1,6 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import State3 from './stateManagement/stateManagement3'
+// import State3 from './stateManagement/stateManagement3'
+// import MyComponent from './lec3112/combined'
+// import PureFunc from './lec3112/pureFunc'
+// import MyButton3 from './lec3112/pureFunc2'
+import FuncComnp1 from './lec3112/hookComp1'
 // import Component1 from './lec2412/componenet'
 // import InputTest from './lec2412/component3'
 // import Timetable from './lec2412/timetable_6th_sem'
@@ -38,7 +42,24 @@ createRoot(document.getElementById('root')).render(
      </tr>
    </table> */}
    {/* <Component1></Component1> */}
+
 {/* <Timetable></Timetable> */}
-<State3></State3>
-  </StrictMode>,
+
+{/* <State3></State3> */}
+
+{/* <MyComponent></MyComponent>   */}
+
+{/* <PureFunc abc = {true} xyz = {"Hello "}/>
+<br/>
+<br/>
+<PureFunc abc = {false} xyz = {"Hemanshi"}/> */}
+
+{/* <MyButton3 ></MyButton3>
+<br/>
+<br/>
+<MyButton3 abc ={true} def={"hello"}></MyButton3> */}
+
+<FuncComnp1></FuncComnp1>
+
+</StrictMode>,
 )
