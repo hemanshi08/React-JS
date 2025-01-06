@@ -5,6 +5,9 @@ import { createRoot } from 'react-dom/client'
 // import PureFunc from './lec3112/pureFunc'
 // import MyButton3 from './lec3112/pureFunc2'
 import FuncComnp1 from './lec3112/hookComp1'
+import StateExample from './lec6-1/hookexamp'
+import StateExample2 from './lec6-1/hookexmp2'
+import StateExample3 from './lec6-1/hookexamp3'
 // import Component1 from './lec2412/componenet'
 // import InputTest from './lec2412/component3'
 // import Timetable from './lec2412/timetable_6th_sem'
@@ -59,7 +62,10 @@ createRoot(document.getElementById('root')).render(
 <br/>
 <MyButton3 abc ={true} def={"hello"}></MyButton3> */}
 
-<FuncComnp1></FuncComnp1>
+{/* <FuncComnp1></FuncComnp1> */}
 
+{/* <StateExample></StateExample> */}
+{/* <StateExample2></StateExample2> */}
+<StateExample3></StateExample3>
 </StrictMode>,
 )
