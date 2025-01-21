@@ -4,17 +4,19 @@ import { createRoot } from 'react-dom/client'
 // import MyComponent from './lec3112/combined'
 // import PureFunc from './lec3112/pureFunc'
 // import MyButton3 from './lec3112/pureFunc2'
-import FuncComnp1 from './lec3112/hookComp1'
-import StateExample from './lec6-1/hookexamp'
-import StateExample2 from './lec6-1/hookexmp2'
-import StateExample3 from './lec6-1/hookexamp3'
+// import FuncComnp1 from './lec3112/hookComp1'
+// import StateExample from './lec6-1/hookexamp'
+// import StateExample2 from './lec6-1/hookexmp2'
+// import StateExample3 from './lec6-1/hookexamp3'
 // import Component1 from './lec2412/componenet'
 // import InputTest from './lec2412/component3'
 // import Timetable from './lec2412/timetable_6th_sem'
 // import State1 from './stateManagement/stateManagement'
 // import State2 from './stateManagement/stateManagement2'
 
-
+import Apisimulation from './lec18_01/hookUseEffect'
+import ApiStimulation1 from './lec18_01/Countdown'
+import UserComponent1 from './lec21-01/cleanup'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <div>
@@ -66,6 +68,8 @@ createRoot(document.getElementById('root')).render(
 
 {/* <StateExample></StateExample> */}
 {/* <StateExample2></StateExample2> */}
-<StateExample3></StateExample3>
+{/* <StateExample3></StateExample3> */}
+{/* <ApiStimulation1/> */}
+<UserComponent1/>
 </StrictMode>,
 )
